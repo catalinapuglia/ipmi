@@ -3,10 +3,10 @@ PImage imagen;
 
 void setup(){
   size(800, 400);
+  imagen=loadImage("imagen.jpeg");
  }
 
 void draw(){
-  imagen=loadImage("imagen.jpeg");
   image(imagen, 0, 0, 400, 400);
   
   
